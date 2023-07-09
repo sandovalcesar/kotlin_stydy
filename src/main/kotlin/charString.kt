@@ -11,5 +11,5 @@ fun main(args: Array<String>) {
     val birthYear = 1991
     val currentYear: Int = 2023
 
-    println("la edad de $name es ${currentYear - birthYear}") // TODO --se pueden hacer calculos dentro de las declaraciones mediante el metodo '${}' --
+    println("la edad de $name es ${currentYear - birthYear} años ") // TODO --se pueden hacer calculos dentro de las declaraciones mediante el metodo '${}' --
 }
