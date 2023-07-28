@@ -15,6 +15,6 @@ fun printfooter2 (titulo: String): String{ //TODO justo despues del parentesis
                                           //indicamos el tipo a devolver
     var footer = "***********************\n"
     footer += titulo
-    footer = "\n***********************"
+    footer += "\n***********************"
     return footer
 }
