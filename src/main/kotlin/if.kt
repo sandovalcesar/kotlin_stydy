@@ -15,7 +15,7 @@ fun main(args: Array<String>) {
 fun getLongestName(name1: String, name2: String) {
     var longesName = name2
     if (name1.length > name2.length) longesName = name1
-    println("El nombre mas largo es $longesName")
+    println("(funcion1) El nombre mas largo es $longesName")
 }
 
 fun getLongestName2(name1: String, name2: String) {
@@ -25,14 +25,14 @@ fun getLongestName2(name1: String, name2: String) {
     } else {
         longesName = name2
     }
-    println("El nombre mas largo es $longesName")
+    println("(funcion2) El nombre mas largo es $longesName")
 }
 fun getLongestName3(name1: String, name2: String) {
     val longesName = if (name1.length > name2.length) { // TODO es obligartorio poner el else
-        println("el nombre mas largo es $name1")
+        println("(funcion3) El nombre mas largo es $name1")
         name1 // TODO return
     } else {
-        println("el nombre mas largo es $name2")
+        println("El nombre mas largo es $name2")
         name2
     }
 
