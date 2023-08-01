@@ -4,9 +4,9 @@ fun main(args: Array<String>) {
     when (password.length) {
         0 -> { println("contraseña vacia") }
 
-        in 1.rangeTo(4) -> println("contraseña muy debil")
+        1,2,3,4-> { println("contraseña muy debil") }
 
-        in 5, 6 -> { println("contraseña debil") }
+        5, 6 -> { println("contraseña debil") }
 
         else -> { println("contraseña segura") }
     }
